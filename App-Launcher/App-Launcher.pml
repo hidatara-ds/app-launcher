@@ -38,6 +38,33 @@
         <File name="volume-down" src="html/images/volume-down.png" />
         <File name="volume-up" src="html/images/volume-up.png" />
         <File name="icon" src="icon.png" />
+        <File name="OFL" src="html/font/OFL.txt" />
+        <File name="Poppins-Black" src="html/font/Poppins-Black.ttf" />
+        <File name="Poppins-BlackItalic" src="html/font/Poppins-BlackItalic.ttf" />
+        <File name="Poppins-Bold" src="html/font/Poppins-Bold.ttf" />
+        <File name="Poppins-BoldItalic" src="html/font/Poppins-BoldItalic.ttf" />
+        <File name="Poppins-ExtraBold" src="html/font/Poppins-ExtraBold.ttf" />
+        <File name="Poppins-ExtraBoldItalic" src="html/font/Poppins-ExtraBoldItalic.ttf" />
+        <File name="Poppins-ExtraLight" src="html/font/Poppins-ExtraLight.ttf" />
+        <File name="Poppins-ExtraLightItalic" src="html/font/Poppins-ExtraLightItalic.ttf" />
+        <File name="Poppins-Italic" src="html/font/Poppins-Italic.ttf" />
+        <File name="Poppins-Light" src="html/font/Poppins-Light.ttf" />
+        <File name="Poppins-LightItalic" src="html/font/Poppins-LightItalic.ttf" />
+        <File name="Poppins-Medium" src="html/font/Poppins-Medium.ttf" />
+        <File name="Poppins-MediumItalic" src="html/font/Poppins-MediumItalic.ttf" />
+        <File name="Poppins-Regular" src="html/font/Poppins-Regular.ttf" />
+        <File name="Poppins-SemiBold" src="html/font/Poppins-SemiBold.ttf" />
+        <File name="Poppins-SemiBoldItalic" src="html/font/Poppins-SemiBoldItalic.ttf" />
+        <File name="Poppins-Thin" src="html/font/Poppins-Thin.ttf" />
+        <File name="Poppins-ThinItalic" src="html/font/Poppins-ThinItalic.ttf" />
+        <File name="ic_ai_discussion" src="html/images/ic_ai_discussion.png" />
+        <File name="ic_face_recognize" src="html/images/ic_face_recognize.png" />
+        <File name="ic_robot_movement" src="html/images/ic_robot_movement.png" />
+        <File name="ic_video_conference" src="html/images/ic_video_conference.png" />
+        <File name="pepper_face" src="html/images/pepper_face.png" />
+        <File name="style" src="html/css/style.css" />
+        <File name="background" src="html/images/background.webp" />
+        <File name="pepper_face_border" src="html/images/pepper_face_border.png" />
     </Resources>
     <Topics>
         <Topic name="applauncher_pages_names_topic_arw" src="applauncher_pages_names_topic/applauncher_pages_names_topic_arw.top" topicName="applauncher_pages_names_topic" language="ar_SA" />
@@ -61,10 +88,33 @@
         <Topic name="applauncher_pages_names_topic_sws" src="applauncher_pages_names_topic/applauncher_pages_names_topic_sws.top" topicName="applauncher_pages_names_topic" language="sv_SE" />
         <Topic name="applauncher_pages_names_topic_trt" src="applauncher_pages_names_topic/applauncher_pages_names_topic_trt.top" topicName="applauncher_pages_names_topic" language="tr_TR" />
         <Topic name="applauncher_pages_names_topic_mnc" src="applauncher_pages_names_topic/applauncher_pages_names_topic_mnc.top" topicName="applauncher_pages_names_topic" language="zh_CN" />
-        <Topic name="applauncher_pages_names_topic_mnt" src="applauncher_pages_names_topic/applauncher_pages_names_topic_mnt.top" topicName="applauncher_pages_names_topic" language="" />
+        <Topic name="applauncher_pages_names_topic_mnt" src="applauncher_pages_names_topic/applauncher_pages_names_topic_mnt.top" topicName="applauncher_pages_names_topic" language="zh_TW" />
     </Topics>
     <IgnoredPaths>
-        <Path src=".metadata" />
         <Path src="lib/dialog_manager.py" />
     </IgnoredPaths>
+    <Translations auto-fill="en_US">
+        <Translation name="translation_ar_SA" src="translations/translation_ar_SA.ts" language="ar_SA" />
+        <Translation name="translation_cs_CZ" src="translations/translation_cs_CZ.ts" language="cs_CZ" />
+        <Translation name="translation_da_DK" src="translations/translation_da_DK.ts" language="da_DK" />
+        <Translation name="translation_de_DE" src="translations/translation_de_DE.ts" language="de_DE" />
+        <Translation name="translation_el_GR" src="translations/translation_el_GR.ts" language="el_GR" />
+        <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
+        <Translation name="translation_es_ES" src="translations/translation_es_ES.ts" language="es_ES" />
+        <Translation name="translation_fi_FI" src="translations/translation_fi_FI.ts" language="fi_FI" />
+        <Translation name="translation_fr_FR" src="translations/translation_fr_FR.ts" language="fr_FR" />
+        <Translation name="translation_it_IT" src="translations/translation_it_IT.ts" language="it_IT" />
+        <Translation name="translation_ja_JP" src="translations/translation_ja_JP.ts" language="ja_JP" />
+        <Translation name="translation_ko_KR" src="translations/translation_ko_KR.ts" language="ko_KR" />
+        <Translation name="translation_nl_NL" src="translations/translation_nl_NL.ts" language="nl_NL" />
+        <Translation name="translation_nn_NO" src="translations/translation_nn_NO.ts" language="nn_NO" />
+        <Translation name="translation_pl_PL" src="translations/translation_pl_PL.ts" language="pl_PL" />
+        <Translation name="translation_pt_BR" src="translations/translation_pt_BR.ts" language="pt_BR" />
+        <Translation name="translation_pt_PT" src="translations/translation_pt_PT.ts" language="pt_PT" />
+        <Translation name="translation_ru_RU" src="translations/translation_ru_RU.ts" language="ru_RU" />
+        <Translation name="translation_sv_SE" src="translations/translation_sv_SE.ts" language="sv_SE" />
+        <Translation name="translation_tr_TR" src="translations/translation_tr_TR.ts" language="tr_TR" />
+        <Translation name="translation_zh_CN" src="translations/translation_zh_CN.ts" language="zh_CN" />
+        <Translation name="translation_zh_TW" src="translations/translation_zh_TW.ts" language="zh_TW" />
+    </Translations>
 </Package>

@@ -1,53 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=1280, user-scalable=no" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+  <title>Pepper Home</title>
 
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/robotutils.js"></script>
-    <script src='js/fastclick.js'></script>
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link media="screen" href="css/style.css" rel="stylesheet" type="text/css">
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/robotutils.js"></script>
+  <script src='js/fastclick.js'></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <div id="header_div">
-        <div class="float_left">
-            <button id="button_home"  style="display: none;" >
-                <span class="glyphicon glyphicon-home"></span>
-            </button>
-        </div>
-        <div class="float_right dropdown">
-            <button data-toggle="dropdown" class="to_hide_when_not_ready" >
-                <span class="glyphicon glyphicon-bullhorn"></span>
-            </button>
-            <div id="header_audio_dropdown" class="dropdown-menu dropdown-menu-right">
-                <button id="button_volume_down"></button>
-                <button id="button_volume_up"></button>
-                <button id="button_unmute" style="display:none;"></button>
-                <button id="button_mute"></button>
-            </div>
-        </div>
-        <div id="header_logo"></div>
+  <div class="container">
+    <div class="header">
+      <!-- <div class="avatar"> -->
+      <img src="images/pepper_face_border.png" alt="Pepper" data-toggle="dropdown" />
+      <!-- </div> -->
+      <h1>Halo! 👋 Saya Pepper.</h1>
+      <p>Senang bertemu dengan Anda! Saya siap membantu. Mari, kita mulai!</p>
     </div>
 
-    <div id="content_div">
-        <div id="content_loading_div"></div>
-        <div id="content_sleeping_div" style="display: none;"></div>
-        <div id="content_ready_div" style="display: none;"></div>
+    <div class="grid">
+      <a href="ui/greeting_screen.html" target="_self" class="card">
+        <img src="images/ic_face_recognize.png" alt="Pengenalan Wajah" />
+        <span>Pengenalan Wajah</span>
+      </a>
+      <a href="https://meet.google.com/landing" class="card">
+        <img src="images/ic_video_conference.png" alt="Konferensi Video" />
+        <span>Konferensi Video</span>
+      </a>
+      <a href="ui/talk_screen.html" class="card">
+        <img src="images/ic_ai_discussion.png" alt="Diskusi AI" />
+        <span>Diskusi AI</span>
+      </a>
+      <div class="card">
+        <img src="images/ic_robot_movement.png" alt="Gerakan Robot" />
+        <span>Gerakan Robot</span>
+      </div>
     </div>
 
     <div id="footer_div">
-        <div class="float_right dropup">
-            <button class="to_hide_when_not_ready" data-toggle="dropdown">
-                <span class="glyphicon glyphicon-option-horizontal"></span>
-            </button>
-            <div id="footer_all_apps_dropdown" class="dropdown-menu dropdown-menu-right"></div>
-        </div>
+      <div class="float_right dropup">
+        <button class="to_hide_when_not_ready" data-toggle="dropdown">
+          <span class="glyphicon glyphicon-option-horizontal"></span>
+        </button>
+        <div id="footer_all_apps_dropdown" class="dropdown-menu dropdown-menu-right"></div>
+      </div>
     </div>
+
+  </div>
 </body>
+
 </html>
